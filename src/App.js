@@ -47,7 +47,7 @@ function App() {
       <Workshop phones={phoneARR} />
       <PizzaList pizzas={pizzaARR} />
       <SpeakerList speakers={speakerARR} />
-      <ComputerList />
+      <ComputerList computers={computerARR} />
     </div>
   );
 }
