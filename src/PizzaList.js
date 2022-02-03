@@ -1,14 +1,10 @@
 import React from 'react';
+import Pizza from './Pizza';
 
 export default function PizzaList({ pizzas }) {
-  return <div className='pizzas'>
-    {
-      pizzas.map((pizza, i) => <div className='pizza' key={pizza.topping + i}>
-        <p>{pizza.topping} pizza</p>
-        <p>With {pizza.sauce}</p>
-        <p>{pizza.crust} Type of Crust</p>
-      </div>)
-    }
-  </div>;
+  return (
+    <div className="pizzas">
+      <Pizza pizzas={pizzas} />
+    </div>
+  );
 }
-
