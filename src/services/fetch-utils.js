@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { checkError, client } from './client';
 
 export async function getPhones() {
