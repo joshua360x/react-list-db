@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+.phones, 
+.speakers {
+  background-color: aliceblue;
+}
+
+.pizzas {
+  background-color: beige;
+}
+.pizza, 
+.phone,
+.speaker {
+  margin: 20px;
+  padding: 1rem;
+}
