@@ -15,3 +15,8 @@ export async function getSpeakers() {
   const response = await client.from('speaker').select();
   return checkError(response);
 }
+
+export async function getComputers() {
+  const response = await client.from('computer').select();
+  return checkError(response);
+}

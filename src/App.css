@@ -43,12 +43,14 @@
   background-color: aliceblue;
 }
 
-.pizzas {
+.pizzas,
+.computers {
   background-color: beige;
 }
 .pizza, 
 .phone,
-.speaker {
+.speaker,
+.computer {
   margin: 20px;
   padding: 1rem;
 }
